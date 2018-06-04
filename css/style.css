@@ -1,0 +1,16 @@
+#rcorners1 {
+    border-radius: 25px;
+    background: DarkGray;
+    padding: 20px;  
+}
+/* Gradient transparent - color - transparent */
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+h4 { 
+  text-align: center 
+}

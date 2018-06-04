@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Functionality from Web</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<div id="rcorners1">
+  <h4>Lets zap some specific items in an array</h4>
+  
+  <label for="">Array and arguments to Zap </label><input type="textbox" name="zapArray"></input><label for="">(add your array in the first element surrounded by brackets, then whatever your arguments you want to zap separated by commas. <br> <br>[1, 2, 3, 1, 2, 3], 2, 3 <br>should return [1, 1]. <br><br>
+[1, 2, 3, 5, 1, 2, 3], 2, 3 <br>should return [1, 5, 1]. <br><br>
+[3, 5, 1, 2, 2], 2, 3, 5 <br>should return [1]. <br><br>
+[2, 3, 2, 3], 2, 3 <br>should return []. <br><br>
+["tree", "hamburger", 53], "tree", 53 <br>should return ["hamburger"].</label> 
+<br><br>
+  <button onClick="createZapArray()">Create Array and Zap the array</button><br><label for="">whats left of the zapped array</label>
+  <br><input type="textbox" name="zappedArray"></input><br>
+  </div>
+
+<hr>
+<div id="rcorners1">
+  <p>Create and multiply matrices in JS</p>
+  </div>
+<hr>
+<!-- \\Taken from internet lables and inputs for a calcualtion triggered by a button and displays the reuslts -->
+<div id="rcorners1">
+  <h4>Calculate the area of a triangle</h4>
+  <label for="">Width (b): </label>
+  <input type="textbox" name="width"></input><br>
+  <label for="">Height (h): </label><input type="textbox" name="height"></input><br>
+  <button onClick="calculateArea()">Calculate area</button><br>
+  <label for="output">The area is: </label><input type="textbox" name="output"></input>
+  </div>
+<hr>
+<!-- \\Filters out odds and evens from one array (added in the JS section not user inputed...Yet.) and triggered by a button -->
+<div id="rcorners1">
+  <h4>Taken a given array (static, created in the JS, numbers 1-10) Filter out the odd and even numbers of the array</h4>
+  <button onClick="getOdd()">filter out odd numbers</button><br>
+  <label for="isOddOutput">The area is: </label><input type="textbox" name="isOddOutput"></input>
+
+  <br><br><button onClick="getEven()">filter out even numbers</button><br>
+  <label for="isEvenOutput">The area is: </label><input type="textbox" name="isEvenOutput"></input>
+</div>
+<hr>
+
+
+<!-- \\Create an array from input and then displays it triggered by a button -->
+<div id="rcorners1">
+  <h4>create a new array from whatever you want, then display it.</h4>
+  <label for="">Test Array Creation </label><input type="textbox" name="array"></input><label for="">(add your elements separated by commas) </label><br>
+  <p>This will not implement nested arrays...yet</p>
+  <button onClick="createArray()">Create Array</button>
+  <br><input type="textbox" name="userArray"></input><br>
+  <label for="">See console for the array, here are the items) </label>
+</div>
+<hr>
+<!-- \\Create an array from input and then remove duplicates from it triggered by buttons-->
+<div id="rcorners1">
+  <h4>create an array from whatever you want, with duplicates and then remove those duplicates</h4>
+  <label for="">Array with Duplicates </label><input type="textbox" name="arrayWithDuplicates"></input><label for="">(add your elements separated by commas) </label><br>
+  <!--<button onClick="createdDuplicateArray()">Create Duplicate Array</button> -->
+  <button onClick="removeDuplicateArray()">Remove Duplicates</button>
+  <br><input type="textbox" name="duplicateArrayResults"></input><br>
+</div>
+<hr>
+<div id="rcorners1">
+  <h4>Some ongoing results may be displayed here instead of in the console:</h4>
+  <div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
